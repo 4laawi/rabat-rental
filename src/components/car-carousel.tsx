@@ -53,7 +53,7 @@ const carouselCars: CarouselCar[] = [
 
 const CAPTION_ANIM_MS = 350
 const CAPTION_DELAY_AFTER_SWITCH_MS = 1000
-const AUTO_INTERVAL_MS = 10000 // 10 seconds between image changes
+const AUTO_INTERVAL_MS = 5000 // 5 seconds between image changes
 
 export function CarCarousel({ overlayContent }: CarCarouselProps) {
   const cars = carouselCars

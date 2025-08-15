@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Inter, Kumar_One } from "next/font/google";
+import { MobileNavbar } from "@/components/mobile-navbar";
 import "./globals.css";
 
 const inter = Inter({
@@ -36,6 +37,7 @@ export default function RootLayout({
       <body
         className={`${inter.variable} ${kumarOne.variable} antialiased font-sans`}
       >
+        <MobileNavbar />
         {children}
       </body>
     </html>
